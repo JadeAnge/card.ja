@@ -20,7 +20,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: rgb(90, 122, 95);
+  background-color: rgb(62, 103, 68);
 }
 
 
@@ -31,11 +31,11 @@ body {
   flex-direction: column ;
   /* à compléter */
   flex-direction: ;
-  align-items: ;
+  align-items: stretch;
   gap: 20px ;
   width: 380px;
   padding: 20px;;
-  background-color: rgb(127, 183, 144) ;
+  background-color: rgb(114, 172, 131) ;
   border-radius: 8px ;
   box-shadow:  9px 6px (97, 53, 53, 0.2) ;
 }
@@ -120,7 +120,7 @@ body {
   padding: 20px ;
   /* à compléter */
   align-items: center;
-  gap: 20px ;
+  gap: 10px ;
   background-color: rgb(166, 215, 174) ;
   border-radius:12px ;
 }
@@ -129,10 +129,14 @@ body {
 
 .lien-icone {
   display: flex ;
-  align-items: bottom ;
-  padding: 5px;
+  justify-content: center;
+  align-items: center ;
+  background-color: rgb(127, 183, 144); /* couleur du carré */
+  border-radius: 10px; /* arrondi */
+  padding: 7px;
   font-size: 20px;
-  width: 32px;
+    height: 40px;
+  width: 40px;
   border-radius: 10px;
 }
 
